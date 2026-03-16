@@ -1,0 +1,24 @@
+
+# Max Messenger
+MAX_TOKEN=Токен бота в Max 
+MAX_API_URL=https://platform-api.max.ru  # опционально
+
+# Planka
+PLANKA_URL=http://localhost:8080
+PLANKA_USERNAME=имя пользователя Planka
+PLANKA_PASSWORD=Пароль Planka
+
+# Маппинг досок: PLANKABOARD_{BOARD_ID}_MAX_USER_ID={USER_ID}
+PLANKABOARD_ID_MAX_CHAT_ID=ID чата в MAX
+# Интервалы (секунды)
+POLL_INTERVAL=30
+DEADLINE_CHECK_INTERVAL=30
+
+# База данных
+DATABASE_PATH=/opt/planka-max-bot/planka-bot.db
+
+# Временная зона
+TIMEZONE=Europe/Moscow
+
+# Ключевые слова для колонки "Выполнено"
+COMPLETED_KEYWORDS=Выполнено,выполнено,Готово,готово,Закрыто,закрыто

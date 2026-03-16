@@ -1,0 +1,17 @@
+[Unit]
+Description=Planka Max Bot
+After=network.target
+
+[Service]
+Type=simple
+User=your username
+WorkingDirectory=/opt/planka-max-bot
+Environment="PATH=/opt/planka-max-bot/venv/bin"
+ExecStart=/opt/planka-max-bot/venv/bin/python /opt/planka-max-bot/main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
